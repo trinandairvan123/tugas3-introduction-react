@@ -1,0 +1,144 @@
+.home-background {
+  background-image: url("./assets/img/background.png");
+  background-size: 100%;
+  /* height: 100%;
+  width: 100%; */
+}
+
+#foto-profil {
+  border-radius: 50%;
+  width: 355px;
+  margin: auto;
+}
+
+header{
+  background-color: #FFFFFF;
+  padding: 11px
+}
+
+footer h6{
+  font-family: 'SF Compact Display', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+header ul{
+  margin: 0;
+}
+
+
+.navig a{
+  color: #19345E;
+  text-decoration: none;
+  margin: 0 15px;
+  font-family: 'Muli', sans-serif;
+  font-size: 13px;
+}
+
+body .navig a.aktif{
+  color: #2295f4;
+  font-weight: bold;
+}
+
+.navig a:hover{
+  color: #2295f4;
+}
+
+.about-anne{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #19345E;
+}
+
+.tabel-anne tr td{
+  border: #19345E solid 1px;
+  font-family: 'Muli' sans-serif;
+  font-size: 14px;
+  color: #19345E;
+  padding: 5px 25px;
+}
+
+.logo-atas{
+  width: 135px;
+}
+
+.foto-id{
+  position: relative;
+}
+
+
+.logo-bawah{
+  width: 109px;
+}
+
+.logo-sosmed{
+  width: 20px;
+  margin: 5px;
+}
+
+.isi-home{
+  padding-top:  200px;
+}
+
+.sapaan{
+  font-size: 30px;
+  margin: 0;
+}
+
+.nama{
+  font-size: 85px;
+  margin: 0;
+}
+
+.hobi{
+  font-size: 35px;
+  font-weight: medium;
+  margin: 0;
+}
+
+.tombol {
+  background-color: #2295f4;
+  border: 2px solid #000000;
+  width: 150px auto;
+  height: 30px auto;
+  text-align: center;
+  display: table;
+  margin-top: 30px;
+  padding: 10px 30px;
+  font-size: 17px;
+  border-radius: 30px;
+}
+
+.tombol a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.alta{
+  align-content: center;
+  width: 248px;
+}
+
+.isi-form{
+  font-family: 'Muli', sans-serif;
+  font-size: 23px;
+  color: #19345e;
+  padding: 0px 150px;
+}
+
+@media(max-width:1199px){
+  .foto-id:after{left: 46px; bottom: -24px;}
+}
+
+@media(max-width: 992px){
+  .alterra{text-align: center;}
+  .logo-bawah{margin-top: -20px; padding-bottom:10px; margin-left:-2rem; }
+  .foto-id:after{left: 165px;}
+  h6{margin-bottom: 0;}
+  .foto-id{margin-top: 3rem;}
+}
+
+@media(max-width:768px){
+  .foto-id:after{left: 75px;}
+}
